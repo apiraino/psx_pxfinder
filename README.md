@@ -23,7 +23,7 @@ Your source file needs to be modified in two points:
 /* init pxfinder */
 pxfinder_init();
 
-/* draw the croohair and the coordinates box (f=1 execute FntFlush immediately */
+/* draw the crosshair and the coordinates box (f=1 execute FntFlush immediately */
 pxfinder_draw(GsOT ot, int f);
 ```
 Linking example:
